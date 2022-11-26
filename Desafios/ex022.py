@@ -1,0 +1,6 @@
+nome = str(input('Qual o seu nome? '))
+ma = nome.upper()
+mi = nome.lower()
+qd = len(nome) - nome.count(' ')
+l1 = len(nome[0:7])
+print (' Nome: {} \n Maiusculo: {} \n Miuscula: {} \n QD de letras sem espaço: {} \n Qd letras do primeiro nome: {}'.format(nome, ma, mi, qd, l1))

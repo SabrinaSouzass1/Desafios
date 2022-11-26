@@ -1,0 +1,7 @@
+d = int (input('Quantos dias o carro ficou alugado? '))
+k = float (input('Quantos Km rodados? '))
+s = (d * 60) + (k * 0.15)
+print (' Dias: {} \n Km: {} \n Valor: {} '.format (d, k, s)) 
+car = int (input('Você quer dividir em quantas vezes? '))
+div = (s / car) 
+print (' Valor: {} \n Numero de parcelar: {} \n Valor por parcela: {}'.format (s, car, div))

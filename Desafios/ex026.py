@@ -1,0 +1,5 @@
+frase = input('Digite uma frase! ').upper()
+ler = frase.count('A')
+enc = frase.find('A')
+enc2 = frase.rfind('A')
+print (' Frase: {} \n N de A: {} \n Primeira posição: {} \n Ultima posição: {} '.format(frase, ler, enc, enc2))
